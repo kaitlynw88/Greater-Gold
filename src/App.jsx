@@ -5,6 +5,8 @@ import image1 from "./assets/greaterGoldLogos.png"
 
 import popup1 from "./assets/GreaterGold_01.jpg"
 import popup2 from "./assets/GreaterGold_02.jpg"
+import popup3 from "./assets/GreaterGold_03.jpg"
+import popup4 from "./assets/GreaterGold_04.jpg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
@@ -26,7 +28,16 @@ const App = () => {
           <h2>Get in Contact</h2>
           <div className='socials'>
           <FontAwesomeIcon icon={faInstagram} />
+          <p>
+            <a href="https://www.instagram.com/greatergoldvintage/">
+            @greatergoldvintage</a>
+          </p>
           <FontAwesomeIcon icon={faEnvelope} />
+          <p>
+          <a href="mailto:della@greatergold.ca">
+            della@greatergold.ca
+          </a>
+          </p>
           </div>
         </div>
       </section>
@@ -46,6 +57,8 @@ const App = () => {
         <div className="container">
           <img src={popup1} alt="" />
           <img src={popup2} alt="" />
+          <img src={popup3} alt="" />
+          <img src={popup4} alt="" />
         </div>
         </div>
       </section>
