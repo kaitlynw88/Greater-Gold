@@ -7,6 +7,10 @@ import popup1 from "./assets/GreaterGold_01.jpg"
 import popup2 from "./assets/GreaterGold_02.jpg"
 import popup3 from "./assets/GreaterGold_03.jpg"
 import popup4 from "./assets/GreaterGold_04.jpg"
+import popup5 from "./assets/GreaterGold_05.jpg"
+import popup6 from "./assets/GreaterGold_06.jpg"
+import popup7 from "./assets/GreaterGold_07.jpg"
+import popup8 from "./assets/GreaterGold_08.jpg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram } from "@fortawesome/free-brands-svg-icons"
@@ -59,6 +63,10 @@ const App = () => {
           <img src={popup2} alt="" />
           <img src={popup3} alt="" />
           <img src={popup4} alt="" />
+          <img src={popup5} alt="" />
+          <img src={popup6} alt="" />
+          <img src={popup7} alt="" />
+          <img src={popup8} alt="" />
         </div>
         </div>
       </section>
