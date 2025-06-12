@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className="content">
       <Header/>
-      <section>
+      <section className='blurb'>
         <p>
           A blurb about what you sell. Around 30 words. <br />
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, error aliquam culpa cumque provident ea sapiente deleniti iure dolorum.
@@ -30,44 +30,51 @@ const App = () => {
       <section>
         <div className="wrapper">
           <h2>Get in Contact</h2>
-          <div className='socials'>
-          <FontAwesomeIcon icon={faInstagram} />
-          <p>
-            <a href="https://www.instagram.com/greatergoldvintage/">
-            @greatergoldvintage</a>
-          </p>
-          <FontAwesomeIcon icon={faEnvelope} />
-          <p>
-          <a href="mailto:della@greatergold.ca">
-            della@greatergold.ca
-          </a>
-          </p>
+          <div className=' container socials'>
+                <a href="https://www.instagram.com/greatergoldvintage/">
+                <div>
+                  <FontAwesomeIcon icon={faInstagram} className="icon"/>
+                  <p>
+                    @greatergoldvintage
+                  </p>
+                </div>
+                </a>
+                <a href="mailto:della@greatergold.ca">
+                  <div>
+                    <FontAwesomeIcon icon={faEnvelope} className="icon"/>
+                    <p>
+                      della@greatergold.ca
+                    </p>
+                  </div>
+                </a>
           </div>
         </div>
       </section>
-      <section>
+      <section className='popupSection'>
         <div className="wrapper">
           <h2>
             Greater Gold Plus-Size Vintage Pop Up
           </h2>
-          <h4>
-            July 3rd - 31st, 2025 <br />
-            Thursday - Sunday 12 - 7pm
-          </h4>
-          <h4>
-            Chinatown Centre <br />
-            222 Spadina Ave, Unit 121 
-          </h4>
-        <div className="container">
-          <img src={popup1} alt="" />
-          <img src={popup2} alt="" />
-          <img src={popup3} alt="" />
-          <img src={popup4} alt="" />
-          <img src={popup5} alt="" />
-          <img src={popup6} alt="" />
-          <img src={popup7} alt="" />
-          <img src={popup8} alt="" />
-        </div>
+          <div className="container info">
+            <h4>
+              July 3rd - 31st, 2025 <br />
+              Thursday - Sunday 12 - 7pm
+            </h4>
+            <h4>
+              Chinatown Centre <br />
+              222 Spadina Ave, Unit 121 
+            </h4>
+          </div>
+          <div className="container popup">
+            <img src={popup1} alt="" className='popupImg'/>
+            <img src={popup2} alt="" className='popupImg'/>
+            <img src={popup3} alt="" className='popupImg'/>
+            <img src={popup4} alt="" className='popupImg'/>
+            <img src={popup5} alt="" className='popupImg'/>
+            <img src={popup6} alt="" className='popupImg'/>
+            <img src={popup7} alt="" className='popupImg'/>
+            <img src={popup8} alt="" className='popupImg'/>
+          </div>
         </div>
       </section>
       <img src={image1} alt="" />
