@@ -107,8 +107,6 @@ img{
 }
 
 @media(max-width: 500px) {
-  
-
   .socials {
     flex-direction: column;
   }
