@@ -77,7 +77,6 @@ const App = () => {
           </div>
         </div>
       </section>
-      <img src={image1} alt="" />
       <Footer/>
     </div>
   );
