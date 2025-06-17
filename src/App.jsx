@@ -1,7 +1,6 @@
 import './App.css';
 import Header from "./components/Header"
 import Footer from './components/Footer';
-import image1 from "./assets/greaterGoldLogos.png"
 
 import popup1 from "./assets/GreaterGold_01.jpg"
 import popup2 from "./assets/GreaterGold_02.jpg"
@@ -23,8 +22,7 @@ const App = () => {
       <Header/>
       <section className='blurb'>
         <p>
-          A blurb about what you sell. Around 30 words. <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, error aliquam culpa cumque provident ea sapiente deleniti iure dolorum.
+          Full site coming soon!
         </p>
       </section>
       <section>
